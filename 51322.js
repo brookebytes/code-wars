@@ -29,3 +29,41 @@ function vowelIndices(word){
   }
   return indexes;
 }
+
+//Odd or Even? Determine that! - 7kyu
+//Given a number N, determine if the sum of N consecutive numbers is odd or even.
+function oddOrEven(n) {
+  if (n===0){
+    return 'Even';
+  }
+  else if (n%2==0){
+    if ((n/2)%2===0){
+      return 'Even';
+    }
+  else {
+    return 'Odd';
+    }
+  }
+  else { 
+    return 'Either';
+  }
+}
+//test cases
+oddOrEven(1) //either
+oddOrEven(6) //odd
+oddOrEven(8) //even
+
+//Simple string characters - 7kyu
+//your task will be to return a list of ints detailing the count of uppercase letters, lowercase, numbers and special characters
+function solve(s){
+  let upperCaseCount = s.match(/[A-Z]/g)!=null ?  s.match(/[A-Z]/g).length : 0;
+  let lowerCaseCount = s.match(/[a-z]/g)!=null ? s.match(/[a-z]/g).length : 0;
+  let numbersCount= s.match(/[0-9]/g)!=null ? s.match(/[0-9]/g).length : 0;
+  let charCount = s.match(/[`"{}\[\]\>\<\=\+\*.:;'_^%$#!?&()~@,-\/\\/]/g)!=null ? s.match(/[`"{}\[\]\>\<\=\+\*.:;'_^%$#!?&()~@,-\/\\/]/g) : 0;
+  return [upperCaseCount,lowerCaseCount,numbersCount,charCount.length];
+}
+
+//test cases
+solve("Codewars@codewars123.com");//[1,18,3,2]
+solve("bgA5<1d-tOwUZTS8yQ");//[7,6,3,2]
+solve("P*K4%>mQUDaG$h=cx2?.Czt7!Zn16p@5H");//[9,9,6,9]
