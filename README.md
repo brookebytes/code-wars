@@ -1,5 +1,7 @@
 # Codewars Challenges - **[Visit Here](https://www.codewars.com/users/brookered)**
 
+<img src="https://www.codewars.com/users/brookered/badges/large?theme=light"/>
+
 This repository consists of coding challenges (kata) found on Codewars, where I aim to push at least 3 solutions per week. I currently have completed 175+ challenges and am in the top 12.3% Honor percentile.
 
 ![Codewars Profile Stats Screenshot](codewars_profile_screenshot.jpeg)
