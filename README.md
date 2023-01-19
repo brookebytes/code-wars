@@ -2,9 +2,9 @@
 
 <img src="https://www.codewars.com/users/brookered/badges/large?theme=light"/>
 
-This repository consists of coding challenges (kata) found on Codewars, where I aim to push at least 3 solutions per week. I currently have completed 175+ challenges and am in the top 12.3% Honor percentile.
+This repository consists of coding challenges (kata) found on Codewars, where I aim to push at least 3 solutions per week. I currently have completed 220+ challenges and am in the top 6.8% honor percentile.
 
-![Codewars Profile Stats Screenshot](codewars_profile_screenshot.jpeg)
+![Codewars Profile Stats Screenshot](codewars_profile_screenshot_4kyu.png)
 
 ## How It's Made:
 **Tech used:** <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
