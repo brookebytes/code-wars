@@ -1,4 +1,4 @@
-//Maximum Product - 7kyu
+//Maximum Product 
 
 function adjacentElementsProduct(array) {
   let max = array[0]*array[1];
