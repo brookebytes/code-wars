@@ -1,4 +1,6 @@
 //Simple Fun #17: Rounders - 7kyu
+/* Turn the given integer into a number that has only one non-zero digit
+ * using a tail rounding approach */
 
 function rounders(value) {
   let digits = value.toString().split("").map(el => Number(el));
